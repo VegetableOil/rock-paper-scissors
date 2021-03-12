@@ -66,8 +66,8 @@ main {
     border-radius: 4px;
 }
 
-.options p:hover {
-    background-color: orange;
+.option:hover {
+    background-color: orange !important;
     cursor: pointer;
 }
 
