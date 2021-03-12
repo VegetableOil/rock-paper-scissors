@@ -1,0 +1,1 @@
+A simple JS rock-paper-scissors project
