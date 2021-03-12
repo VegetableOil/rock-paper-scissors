@@ -40,7 +40,7 @@ main {
     border-radius: 6px;
 }
 
-.player:hover {
+.player:first-child:hover {
     box-shadow: 0 3px 0 0 orange;
 }
 
@@ -67,7 +67,7 @@ main {
 }
 
 .option:hover {
-    background-color: orange !important;
+    background-color: orange;
     cursor: pointer;
 }
 
