@@ -15,6 +15,8 @@ function main() {
     //when user chooses rock
     rock.onclick = () => {
         rock.style.backgroundColor = "#d17702";
+        paper.style.backgroundColor = "white";
+        scissors.style.backgroundColor = "white";
 
         value = 0;
 
@@ -49,6 +51,8 @@ function main() {
     //when user chooses paper
     paper.onclick = () => {
         paper.style.backgroundColor = "#d17702";
+        rock.style.backgroundColor = "white";
+        scissors.style.backgroundColor = "white";
 
         value = 1;
 
@@ -83,6 +87,8 @@ function main() {
     //when user chooses scissors
     scissors.onclick = () => {
         scissors.style.backgroundColor = "#d17702";
+        rock.style.backgroundColor = "white";
+        paper.style.backgroundColor = "white";
 
         value = 2;
 

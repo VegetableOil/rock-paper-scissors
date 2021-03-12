@@ -16,17 +16,34 @@ body {
 }
 
 header {
-    height: 60px;
+    height: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 8px 12px;
+    text-align: center;
 }
 
 main {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.players-cont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
 }
 
 .player {
@@ -67,10 +84,38 @@ main {
 }
 
 .option:hover {
-    background-color: orange;
+    background-color: orange !important;
     cursor: pointer;
 }
 
 .options p:last-child {
     margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+    :root {
+        font-size: 16px;
+    }
+
+    .players-cont {
+        flex-direction: column;
+    }
+
+    .player:first-child {
+        margin-bottom: 12px;
+        margin-right: 0;
+    }
+    
+    .player:last-child {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
 }
