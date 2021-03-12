@@ -77,7 +77,7 @@ function main() {
         //change result text
         if (value == valuePC) {
             result.innerHTML = "You Draw";
-        } else if (valuePC == 1) {
+        } else if (valuePC == 2) {
             result.innerHTML = "You Win";
         } else {
             result.innerHTML = "You Lose";
